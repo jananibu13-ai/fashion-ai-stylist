@@ -2,7 +2,7 @@ import streamlit as st
 import sys
 
 st.title("AI Fashion Stylist")
-st.write("Python version:", sys.version)
+#st.write("Python version:", sys.version)
 
 import cv2
 
