@@ -6,18 +6,20 @@ st.write("Python version:", sys.version)
 
 import cv2
 
-st.success("OpenCV loaded successfully")
+#st.success("OpenCV loaded successfully")
 
 import mediapipe as mp
-st.success("MediaPipe loaded successfully")
-# TEMPORARILY COMMENT THESE
-# import cv2
-# import numpy as np
-# from PIL import Image
+#st.success("MediaPipe loaded successfully")
 
-# from modules.face_analysis import crop_face
-# from modules.skin_tone import get_skin_tone
-# from modules.recommender import recommend_products
+
+# TEMPORARILY COMMENT THESE
+import cv2
+import numpy as np
+from PIL import Image
+
+from modules.face_analysis import crop_face
+from modules.skin_tone import get_skin_tone
+from modules.recommender import recommend_products
 
 uploaded_file = st.file_uploader(
     "Upload Face Image",
