@@ -1,0 +1,13 @@
+venv/
+.venv/
+
+__pycache__/
+*.pyc
+
+temp.jpg
+face_crop.jpg
+sample.jpg
+
+test_*.py
+
+.ipynb_checkpoints/
