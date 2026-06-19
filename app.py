@@ -4,6 +4,9 @@ import sys
 st.title("AI Fashion Stylist")
 st.write("Python version:", sys.version)
 
+import cv2
+
+st.success("OpenCV loaded successfully")
 # TEMPORARILY COMMENT THESE
 # import cv2
 # import numpy as np
