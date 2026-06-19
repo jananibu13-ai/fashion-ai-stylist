@@ -7,6 +7,9 @@ st.write("Python version:", sys.version)
 import cv2
 
 st.success("OpenCV loaded successfully")
+
+import mediapipe as mp
+st.success("MediaPipe loaded successfully")
 # TEMPORARILY COMMENT THESE
 # import cv2
 # import numpy as np
