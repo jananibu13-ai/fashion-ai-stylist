@@ -1,13 +1,17 @@
 import streamlit as st
-import cv2
-import numpy as np
-from PIL import Image
-
-from modules.face_analysis import crop_face
-from modules.skin_tone import get_skin_tone
-from modules.recommender import recommend_products
+import sys
 
 st.title("AI Fashion Stylist")
+st.write("Python version:", sys.version)
+
+# TEMPORARILY COMMENT THESE
+# import cv2
+# import numpy as np
+# from PIL import Image
+
+# from modules.face_analysis import crop_face
+# from modules.skin_tone import get_skin_tone
+# from modules.recommender import recommend_products
 
 uploaded_file = st.file_uploader(
     "Upload Face Image",
